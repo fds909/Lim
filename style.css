@@ -37,15 +37,19 @@ h2 {
 #buttons-menu {
   background-color: #00ff00;
   text-align: center;
-  height: 30px;
-  padding: 5px;
-  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  margin-left: 5px;
 }
 
 .charge-low, .charge-mid, .charge-full {
   border-radius: 7px;
   height: 25px;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /* barra rossa */
