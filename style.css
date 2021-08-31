@@ -1,0 +1,71 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+/* rettangolo principale */
+main {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 600px;
+  margin: 20px 15% 10% 15%;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 30%;
+}
+
+h1 {
+  color: #00ff00;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#buttons-menu {
+  background-color: #00ff00;
+  text-align: center;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.charge-low, .charge-mid, .charge-full {
+  border-radius: 7px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+/* barra rossa */
+.charge-low {
+  background-color: #ed3b3b;
+  width: 20%;
+}
+
+/* barra arancio */
+.charge-mid {
+  background-color: #faab3c;
+  width: 40%;
+}
+
+/* barra verde */
+.charge-full {
+  background-color: #51de47;
+  width: 80%;
+}
+
+.address::before {
+  content: '\21a6  ';
+}
